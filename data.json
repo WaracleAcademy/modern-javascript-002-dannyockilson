@@ -1,0 +1,28 @@
+{
+  "results": [
+    {
+      "id": "<thing-id>",
+      "name": "<thing-name>",
+      "description": "<thing-description>",
+      "height": "thing-property"
+    },
+    {
+      "id": "<thing-id>",
+      "name": "<thing-name>",
+      "description": "<thing-description>",
+      "property": "thing-property"
+    },
+    {
+      "id": "<thing-id>",
+      "name": "<thing-name>",
+      "description": "<thing-description>",
+      "property": "thing-property"
+    },
+    {
+      "id": "<thing-id>",
+      "name": "<thing-name>",
+      "description": "<thing-description>",
+      "property": "thing-property"
+    }
+  ]
+}
