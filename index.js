@@ -1,6 +1,6 @@
-const things = ['My Neighbors the Yamadas', 'Grave of the Fireflies'];
+import { render } from './renderer';
 
-const mainView = document.querySelector('#primaryView');
-mainView.innerHTML = `
-    <h2>Text</h2>
-`;
+const things = ['My Neighbors the Yamadas', 'Grave of the Fireflies'];
+render(`
+<h2>Text</h2>
+`);
