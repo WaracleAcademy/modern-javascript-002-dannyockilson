@@ -1,4 +1,4 @@
-import { render } from './renderer';
+import { render } from './renderer.js';
 
 const things = ['My Neighbors the Yamadas', 'Grave of the Fireflies'];
 render(`
