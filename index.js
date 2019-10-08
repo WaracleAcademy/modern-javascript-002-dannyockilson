@@ -2,9 +2,12 @@ import * as data from './data.json';
 
 import { render } from './renderer';
 
-console.log(data.results);
-
-const things = ['My Neighbors the Yamadas', 'Grave of the Fireflies'];
-render(`
-<h2>Text</h2>
-`);
+const things = data.results;
+let content = '';
+for(let i=0; i < things.length; i++) {
+    console.log(things[i]);
+    content += things[i].name;
+}
+console.log(content);
+//const things = ['My Neighbors the Yamadas', 'Grave of the Fireflies'];
+render(content);
