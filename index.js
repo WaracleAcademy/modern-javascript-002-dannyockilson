@@ -23,5 +23,5 @@ for(let i=0; i < things.length; i++) {
     content += getThingTemplate(things[i]);
 }
 content += '</ul>';
-console.log(content);
+console.log('this is a feature branch');
 render(content);
